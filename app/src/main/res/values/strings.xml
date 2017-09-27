@@ -16,6 +16,20 @@
     <string name="blanco">Blanco</string>
     <string name="dorado">Dorado</string>
     <string name="rojo">Rojo</string>
+    <string name="crear">Crear Celulares</string>
+    <string name="listado">Listado</string>
+    <string name="listar">Listar Celulares</string>
+    <string name="reporte1">Reporte 1</string>
+    <string name="reporte2">Reporte 2</string>
+    <string name="reporte4">Reporte 4</string>
+    <string name="mensaje_exitoso">Celular Guardado Exitosamente!</string>
+    <string name="error_1">Por favor digite la capacidad de la RAM</string>
+    <string name="error_2">Por favor digite el precio</string>
+    <string name="error_cero">Por favor digite un numero mayor a cero</string>
+    <string name="guardar">Guardar</string>
+    <string name="borrar">Borrar</string>
+    <string name="numero">N°</string>
+    <string name="capacidad">Capacidad</string>
     <string-array name="marcas">
         <item>@string/samsung</item>
         <item>@string/apple</item>
@@ -32,25 +46,14 @@
         <item>@string/dorado</item>
         <item>@string/rojo</item>
     </string-array>
-    <string name="crear">Crear Celulares</string>
-    <string name="listado">Listado</string>
-    <array name="Opciones">
+    <string-array name="Opciones">
         <item>@string/crear</item>
         <item>@string/listado</item>
-    </array>
-    <string name="listar">Listar Celulares</string>
-    <string name="reporte1">Reporte 1</string>
-    <string name="reporte2">Reporte 2</string>
-    <string name="reporte4">Reporte 4</string>
-    <array name="Listados">
+    </string-array>
+    <string-array name="Listados">
         <item>@string/listar</item>
         <item>@string/reporte1</item>
         <item>@string/reporte2</item>
         <item>@string/reporte4</item>
-    </array>
-    <string name="mensaje_exitoso">Celular Guardado Exitosamente!</string>
-    <string name="guardar">Guardar</string>
-    <string name="borrar">Borrar</string>
-    <string name="numero">N°</string>
-    <string name="capacidad">Capacidad</string>
+    </string-array>
 </resources>

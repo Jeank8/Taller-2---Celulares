@@ -26,7 +26,8 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/marca" />
+            android:text="@string/marca"
+            android:textSize="24sp" />
 
         <Spinner
             android:id="@+id/cmbMarca"
@@ -37,7 +38,8 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/so" />
+            android:text="@string/so"
+            android:textSize="24sp" />
 
         <Spinner
             android:id="@+id/cmbSO"
@@ -50,13 +52,14 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/ram"
-            android:inputType="textPersonName" />
+            android:inputType="numberDecimal" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/color" />
+            android:text="@string/color"
+            android:textSize="24sp" />
 
         <Spinner
             android:id="@+id/cmbColor"
@@ -69,7 +72,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/precio"
-            android:inputType="textPersonName" />
+            android:inputType="numberDecimal" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -89,6 +92,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="borrar"
                 android:text="@string/borrar" />
         </LinearLayout>
 

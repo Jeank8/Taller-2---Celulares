@@ -46,14 +46,46 @@ public class CrearCelular extends AppCompatActivity {
         String mar,sisop,col;
         int cap;
         double pre;
-        mar = marcas.getSelectedItem().toString();
-        sisop = sop.getSelectedItem().toString();
-        cap = Integer.parseInt(capacidad.getText().toString());
-        col = colores.getSelectedItem().toString();
-        pre = Double.parseDouble(precio.getText().toString());
+        if (validar()) {
+            mar = marcas.getSelectedItem().toString();
+            sisop = sop.getSelectedItem().toString();
+            cap = Integer.parseInt(capacidad.getText().toString());
+            col = colores.getSelectedItem().toString();
+            pre = Double.parseDouble(precio.getText().toString());
 
-        Celular c = new Celular(mar,sisop,cap,col,pre);
-        c.guardar();
-        Toast.makeText(this,resources.getString(R.string.mensaje_exitoso),Toast.LENGTH_SHORT).show();
+            Celular c = new Celular(mar, sisop, cap, col, pre);
+            c.guardar();
+            borrar(v);
+            Toast.makeText(this, resources.getString(R.string.mensaje_exitoso), Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    public boolean validar(){
+        if(capacidad.getText().toString().isEmpty()){
+            capacidad.setError(getResources().getString(R.string.error_1));
+            return false;
+        }
+        if(precio.getText().toString().isEmpty()){
+            precio.setError(getResources().getString(R.string.error_2));
+            return false;
+        }
+        if((Integer.parseInt(capacidad.getText().toString())==0)){
+            Toast.makeText(this, resources.getString(R.string.error_cero), Toast.LENGTH_SHORT).show();
+            return false;
+        }
+        if((Double.parseDouble(precio.getText().toString())==0)){
+            Toast.makeText(this, resources.getString(R.string.error_cero), Toast.LENGTH_SHORT).show();
+            return false;
+        }
+        return true;
+    }
+
+    public void borrar(View v){
+        marcas.setSelection(0);
+        sop.setSelection(0);
+        capacidad.setText("");
+        colores.setSelection(0);
+        precio.setText("");
+        capacidad.requestFocus();
     }
 }
