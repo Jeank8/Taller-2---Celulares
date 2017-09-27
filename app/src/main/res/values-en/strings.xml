@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CellPhones</string>
+    <string name="android">Android</string>
+    <string name="apple">Apple</string>
+    <string name="blanco">White</string>
+    <string name="borrar">Clear</string>
+    <string name="capacidad">Capacity</string>
+    <string name="color">Color</string>
+    <string name="crear">Create CellPhones</string>
+    <string name="dorado">Golden</string>
+    <string name="error_1">Please type the capacity of the RAM</string>
+    <string name="error_2">Please type the price</string>
+    <string name="error_cero">Please type a number greater than zero</string>
+    <string name="guardar">Save</string>
+    <string name="huawei">Huawei</string>
+    <string name="ios">IOs</string>
+    <string name="listado">List</string>
+    <string name="listar">CellPhones List</string>
+    <string name="marca">Trademark</string>
+    <string name="mensaje_exitoso">CellPhone Successfully Saved</string>
+    <string name="negro">Black</string>
+    <string name="nokia">Nokia</string>
+    <string name="numero">N°</string>
+    <string name="precio">Price</string>
+    <string name="ram">RAM(GB)</string>
+    <string name="registrar">REGISTER</string>
+    <string name="reporte1">Report 1</string>
+    <string name="reporte2">Report 2</string>
+    <string name="reporte4">Report 4</string>
+    <string name="rojo">Red</string>
+    <string name="samsung">Samsung</string>
+    <string name="so">OS</string>
+</resources>

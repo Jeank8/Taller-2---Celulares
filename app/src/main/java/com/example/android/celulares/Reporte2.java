@@ -24,8 +24,9 @@ public class Reporte2 extends AppCompatActivity {
         resources = this.getResources();
 
         for (int i = 0; i <celulares.size() ; i++) {
+            String marca = celulares.get(i).getMarca();
             int capacidad = celulares.get(i).getCapacidad();
-            if(capacidad>=2 && capacidad<=4) {
+            if(marca.equals(resources.getString(R.string.samsung)) && capacidad>=2 && capacidad<=4) {
                 TableRow fila = new TableRow(this);
                 TextView c1 = new TextView(this);
                 TextView c2 = new TextView(this);
