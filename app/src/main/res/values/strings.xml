@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Celulares</string>
+    <string name="registrar">Registrar</string>
+    <string name="marca">Marca</string>
+    <string name="so">Sistema Operativo</string>
+    <string name="ram">RAM(GB)</string>
+    <string name="color">Color</string>
+    <string name="precio">Precio</string>
+    <string name="nokia">Nokia</string>
+    <string name="huawei">Huawei</string>
+    <string name="samsung">Samsung</string>
+    <string name="apple">Apple</string>
+    <string name="android">Android</string>
+    <string name="ios">IOs</string>
+    <string name="negro">Negro</string>
+    <string name="blanco">Blanco</string>
+    <string name="dorado">Dorado</string>
+    <string name="rojo">Rojo</string>
+    <string-array name="marcas">
+        <item>@string/samsung</item>
+        <item>@string/apple</item>
+        <item>@string/huawei</item>
+        <item>@string/nokia</item>
+    </string-array>
+    <string-array name="sop">
+        <item>@string/android</item>
+        <item>@string/ios</item>
+    </string-array>
+    <string-array name="colores">
+        <item>@string/negro</item>
+        <item>@string/blanco</item>
+        <item>@string/dorado</item>
+        <item>@string/rojo</item>
+    </string-array>
+    <string name="crear">Crear Celulares</string>
+    <string name="listado">Listado</string>
+    <array name="Opciones">
+        <item>@string/crear</item>
+        <item>@string/listado</item>
+    </array>
+    <string name="listar">Listar Celulares</string>
+    <string name="reporte1">Reporte 1</string>
+    <string name="reporte2">Reporte 2</string>
+    <string name="reporte4">Reporte 4</string>
+    <array name="Listados">
+        <item>@string/listar</item>
+        <item>@string/reporte1</item>
+        <item>@string/reporte2</item>
+        <item>@string/reporte4</item>
+    </array>
+    <string name="mensaje_exitoso">Celular Guardado Exitosamente!</string>
+    <string name="guardar">Guardar</string>
+    <string name="borrar">Borrar</string>
+    <string name="numero">N°</string>
+    <string name="capacidad">Capacidad</string>
+</resources>
